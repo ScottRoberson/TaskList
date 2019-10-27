@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task List</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="task-main">
+      <!-- col 12 -->
+
+      <div id="main" class="card">
+        <div class="card-content">
+          <div class="card-title">
+            <span class="card-title-span">Task List</span>
+          </div>
+          <div class="row">
+            <form id="task-form" action="index.php">
+              <div class="input-field col s12">
+                <input type="text" name="task" id="task" value="Walk the dog">
+                <label for="task">New Task</label>
+              </div>
+          </div>
+          <input type="submit" value="Add Task" class="btn">
+          </form>
+        </div>
+        <div class="card-action">
+          <h5 id="task-title">Tasks</h5>
+          <ul class="collection">
+            <li class="collection-item">
+              List Item
+              <a href="#" class="delete-item secondary-content test">
+                <i class="fa fa-trash"></i>
+              </a>
+            </li>
+            <li class="collection-item">
+              List Item
+              <a href="#" class="delete-item secondary-content">
+                <i class="fa fa-trash"></i>
+              </a>
+            </li>
+            <li class="collection-item">
+              List Item
+              <a href="#" class="delete-item secondary-content">
+                <i class="fa fa-trash"></i>
+              </a>
+            </li>
+            <li class="collection-item">
+              List Item
+              <a href="#" class="delete-item secondary-content">
+                <i class="fa fa-trash"></i>
+              </a>
+            </li>
+            <li class="collection-item">
+              List Item
+              <a href="#" class="delete-item secondary-content">
+                <i class="fa fa-trash"></i>
+              </a>
+            </li>
+
+          </ul>
+          <a class="clear-tasks btn black" href="#">Clear Tasks</a>
+        </div>
+      </div>
+      <!-- end col12 -->
+
+    </div>
+  </div>
+
+
+  <script src='app.js'></script>
+</body>
+
+</html>

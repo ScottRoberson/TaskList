@@ -1,0 +1,46 @@
+body {
+  margin:0;
+  padding:0;
+  background:#23374D;
+  font-family: 'Roboto', sans-serif;
+  color:#eeeeee;
+  box-sizing: border-box;
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+}
+.task-main{
+  background-color: #1089FF;
+  width:80vw;
+  height:90vh;
+  margin:10px;
+  
+}
+
+.card{
+  background-color: bisque;
+  color:black;
+}
+
+
+
+
+.card-content{
+background-color:red;
+height:50%;
+}
+
+.card-title{
+  /* background-color: red; */
+}
+
+.card-action{
+  background-color: green;
+  height:50%; 
+  overflow:hidden;
+  
+}
