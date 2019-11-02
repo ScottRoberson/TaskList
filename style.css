@@ -22,7 +22,6 @@ body {
 }
 
 .card{
-  
   color:black;
   width:100%;
 }
@@ -66,7 +65,17 @@ padding:16px 20px;
   border:none;
   border-bottom:2px solid rgba(229,229,229,.50);
   margin-top: 10px;
+}
+
+#filter{
+  width:100%;
+  box-sizing: content-box;
+  /* position: absolute; */
   
+  background-color: transparent;
+  border:none;
+  border-bottom:2px solid rgba(229,229,229,.50);
+  /* margin-top: 10px; */
 }
 
 .btn{
@@ -110,7 +119,7 @@ padding:16px 20px;
 
 #task-title{
   font-size: 2.5rem;
-  margin:0;
+  margin:0 0 20px 0;
 }
 
 .collection{
@@ -123,6 +132,7 @@ padding:16px 20px;
 }
 
 .collection-item{
+  display:none;
   font-size: 1.25rem;
   border-bottom:2px solid rgba(229,229,229,.50);
   padding:10px ;
